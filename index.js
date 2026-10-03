@@ -5,7 +5,7 @@ const { Client, GatewayIntentBits, AllowedMentionsTypes } = require('discord.js'
 
 const TOKEN = process.env.DISCORD_TOKEN;
 const CHANNEL_ID = process.env.CHANNEL_ID;
-const INTERVAL_MS = 10 * 60 * 60 * 1000;
+const INTERVAL_MS = 20 * 60 * 60 * 1000;
 const STATE_FILE = path.join(__dirname, 'last-message.json');
 
 if (!TOKEN || !CHANNEL_ID) {
